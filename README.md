@@ -76,17 +76,37 @@
 - 所有主动行为以“建议 + 询问”形式呈现，决定权始终在用户手中
 
 ### 4. 易效能文件系统
-- 自动用 **“大主题+日期+子主题”** 规范命名所有笔记和文件
+- 自动用 **"大主题+日期+子主题"** 规范命名所有笔记和文件
 - 笔记是临时的工作输出，记忆是长期的知识沉淀，两者边界清晰
+
+### 5. 记忆迁移：从其他大模型导入记忆
+你在 ChatGPT、豆包、Kimi、DeepSeek、Gemini 等大模型中积累的记忆，不应该被锁死在某个平台上。本技能提供标准化的迁移流程：
+- **ChatGPT**：官方导出（Settings → Data Controls → Export Data）或快捷迁移法（让 ChatGPT 直接输出记忆列表）
+- **豆包/Kimi/DeepSeek**：AI 自述法（让它总结关于你的所有信息）或浏览器插件导出
+- **Gemini**：Google Takeout 官方导出
+- **Claude**：官方导出（Settings → Privacy → Export Data）
+
+导出后交给龙虾，它会自动提取关键记忆、生成迁移报告、经你确认后写入本地三层记忆架构。所有处理均在本地完成，数据不出境。
 
 ---
 
 ## 🛠️ 安装与使用 (Installation & Usage)
 
 ### 安装命令
-在 OpenClaw 聊天框或终端输入：
+
+**海外用户（全球直连）：**
 ```bash
 clawhub install claude-code-memory-yewubin
+```
+
+**中国用户（国内镜像加速）：**
+```bash
+clawhub install claude-code-memory-yewubin --registry https://cn.clawhub-mirror.com/api
+```
+
+**从 GitHub 手动克隆：**
+```bash
+git clone https://github.com/yewubin-jpg/claude-code-memory-yewubin.git
 ```
 
 ### 安全安装协议 (Safe Onboarding Protocol)
