@@ -1,18 +1,6 @@
 ---
-metadata.clawdbot:
-  name: claude-code-memory-yewubin
-  description: "由全球时间管理专家叶武滨设计的 AI 第二大脑。基于 Claude Code 泄露源码中的顶级记忆架构，为任何大模型提供全生命周期的自动化记忆与文件管理。"
-  version: 1.3.1
-  homepage: "https://github.com/yewubin-jpg/claude-code-memory-yewubin"
-requires.env: []
-files:
-  - templates/ONBOARDING_GUIDE.md
-  - templates/IDENTITY_TEMPLATE.md
-  - templates/MEMORY_TEMPLATE.md
-  - templates/TOPIC_TEMPLATE.md
-  - templates/FILE_SYSTEM_GUIDE.md
-  - templates/ERRORS_AND_LESSONS_TEMPLATE.md
-  - templates/DREAM_PROTOCOL.md
+name: claude-code-memory-yewubin
+description: "由全球时间管理专家叶武滨设计的 AI 第二大脑。基于 Claude Code 泄露源码中的顶级记忆架构，为任何大模型提供全生命周期的自动化记忆与文件管理。用于：记忆管理、文件组织、自动备份、记忆迁移、知识库整理。"
 ---
 
 # Claude-Code-Memory (Claude级·AI第二大脑)
